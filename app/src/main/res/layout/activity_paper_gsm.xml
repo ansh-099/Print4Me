@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaperGSM">
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/ic_filter_1_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:background="@drawable/ic_filter_2_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_3_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_4_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_5_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_6_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_7_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_8_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_filter_9_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:background="@drawable/ic_arrow_forward_grey_500_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/ic_done_all_grey_500_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_gravity="center|top"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="32dp"
+        android:textSize="18dp"
+        android:text="Paper GSM سمك الورقة :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#222831"
+        app:strokeColor="#222831"
+        app:rippleColor="#222831"
+        android:outlineAmbientShadowColor="#222831"
+        android:outlineSpotShadowColor="#222831"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp" >
+
+        <Button
+            android:id="@+id/btn80"
+            android:fontFamily="sans-serif-condensed"
+            android:text="\n 80 \n"
+            android:textColor="#ffffff"
+            android:background="#222831"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#222831"
+        app:strokeColor="#222831"
+        app:rippleColor="#222831"
+        android:outlineAmbientShadowColor="#222831"
+        android:outlineSpotShadowColor="#222831"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp" >
+
+        <Button
+            android:id="@+id/btn120"
+            android:fontFamily="sans-serif-condensed"
+            android:text="\n 120 \n"
+            android:textColor="#ffffff"
+            android:background="#222831"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#222831"
+        app:strokeColor="#222831"
+        app:rippleColor="#222831"
+        android:outlineAmbientShadowColor="#222831"
+        android:outlineSpotShadowColor="#222831"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp" >
+
+        <Button
+            android:id="@+id/btn300"
+            android:fontFamily="sans-serif-condensed"
+            android:text="\n 300 \n"
+            android:textColor="#ffffff"
+            android:background="#222831"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

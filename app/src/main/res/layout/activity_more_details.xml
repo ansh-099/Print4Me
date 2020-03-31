@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoreDetails">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="32dp"
+        android:textSize="18dp"
+        android:text="More detail بيانات إضافية :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ScooterNotoLiftUp"
+        android:layout_gravity="bottom"
+        android:elevation="100dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#BDBDBD"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                    <EditText
+                        android:id="@+id/etMoreDetail"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="150dp"
+                        android:background="@null"
+                        android:fontFamily="sans-serif-condensed"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:hint="Enter Here"
+                        android:gravity="top"
+                        />
+                <View
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#BDBDBD"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:background="#000000"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/btnSend"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:textColor="#ffffff"
+                android:text="Send أرسال"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
