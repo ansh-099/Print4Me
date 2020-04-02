@@ -15,7 +15,13 @@
         android:roundIcon="@mipmap/logoprint4me"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InitialActivity"></activity>
+        <activity android:name=".InitialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".UploadPDF" />
         <activity android:name=".MoreDetails" />
         <activity android:name=".Pay" />
@@ -27,11 +33,7 @@
         <activity android:name=".PaperSize" />
         <activity android:name=".PaperType" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
