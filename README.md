@@ -2,7 +2,7 @@
 
 A simple Print order taking application. 
 </br>
-Need To Provide Image which needs to be printed.
+Need to provide Image which needs to be printed.
 </br>
 
 ## Process:
