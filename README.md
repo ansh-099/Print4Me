@@ -1,6 +1,6 @@
 # Print4Me
 
-A simple Print order taking application. 
+A simple print order taking application. 
 </br>
 Need to provide Image which needs to be printed.
 </br>
