@@ -36,9 +36,10 @@ Need to provide Image which needs to be printed in the app itself.
 <td><img src = "https://user-images.githubusercontent.com/35291991/88464009-dcbd3f00-ced4-11ea-8785-b26c50b04248.png" height = "460" width="240"></td>
 <td><img src = "https://user-images.githubusercontent.com/35291991/88464031-00808500-ced5-11ea-9262-0f195a1ca211.png" height = "460" width="240"></td>
 <td><img src = "https://user-images.githubusercontent.com/35291991/88464043-23129e00-ced5-11ea-8a8d-30a464174525.png" height = "460" width="240"></td>
-<td><img src = "https://user-images.githubusercontent.com/35291991/88464058-40e00300-ced5-11ea-9a12-9bc0f58740e6.png" height = "460" width="240"></td>
 </tr>
-        
+        <tr>
+ <td><img src = "https://user-images.githubusercontent.com/35291991/88464058-40e00300-ced5-11ea-9a12-9bc0f58740e6.png" height = "460" width="240"></td>
+</tr>    
 </table>
 
 Tech stack used:
