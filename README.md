@@ -5,9 +5,9 @@
 [![Platform](https://img.shields.io/badge/platform-android-blue.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-21%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
-A simple print order taking application. 
+An application which digitise printing orders. 
 </br>
-Need to provide Image which needs to be printed.
+Need to provide Image which needs to be printed in the app itself.
 </br>
 
 ## Process:
