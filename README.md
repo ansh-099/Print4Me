@@ -12,8 +12,7 @@ Need to provide Image which needs to be printed in the app itself.
 
 ## Get in process:
 * Select Colored or Black and white.
-* Number of pages to get printed.
-* Let backend calculate the price.
+* Choose type and size of paper as well.
 
 <table>
         <tr>
@@ -24,7 +23,12 @@ Need to provide Image which needs to be printed in the app itself.
 </table>
 
 </br>
-* Final screen if someone wants to give some message
+
+* Number of pages to get printed.
+* Let backend calculate the price.
+* You must upload the document to get print.
+* Write message if any.
+
 </br>
 
 <table>
@@ -32,12 +36,10 @@ Need to provide Image which needs to be printed in the app itself.
 <td><img src = "https://user-images.githubusercontent.com/35291991/88464009-dcbd3f00-ced4-11ea-8785-b26c50b04248.png" height = "460" width="240"></td>
 <td><img src = "https://user-images.githubusercontent.com/35291991/88464031-00808500-ced5-11ea-9262-0f195a1ca211.png" height = "460" width="240"></td>
 <td><img src = "https://user-images.githubusercontent.com/35291991/88464043-23129e00-ced5-11ea-8a8d-30a464174525.png" height = "460" width="240"></td>
-        </tr>
+<td><img src = "https://user-images.githubusercontent.com/35291991/88464058-40e00300-ced5-11ea-9a12-9bc0f58740e6.png" height = "460" width="240"></td>
+</tr>
+        
 </table>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/35291991/88464058-40e00300-ced5-11ea-9a12-9bc0f58740e6.png" height="480" width="270"/>
-</p>
 
 Tech stack used:
  * [Android](https://developer.android.com/docs)
