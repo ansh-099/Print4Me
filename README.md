@@ -42,7 +42,7 @@ Need to provide Image which needs to be printed in the app itself.
 </tr>    
 </table>
 
-Tech stack used:
+### Tech stack used:
  * [Android](https://developer.android.com/docs)
  * [Firebase](https://firebase.google.com/docs)
  
