@@ -35,8 +35,10 @@ Need to provide Image which needs to be printed.
 </br>
 <a ><img src="https://user-images.githubusercontent.com/35291991/88464058-40e00300-ced5-11ea-9a12-9bc0f58740e6.png" height="480" width="270"/>
 
-
- * Android
- * Firebase
+Tech stack used:
+ * [Android](https://developer.android.com/docs)
+ * [Firebase](https://firebase.google.com/docs)
+ 
+ Cheers!
 
 
